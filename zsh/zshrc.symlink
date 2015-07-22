@@ -1,6 +1,14 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
+# homebrew told me to do this
+export RBENV_ROOT=/usr/local/var/rbenv
+
+
+# homebrew NVM told me to do this
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
