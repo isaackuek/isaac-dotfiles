@@ -1,11 +1,12 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "language-babel"
+    ]
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -14,23 +15,43 @@
       "tmp"
       "vendor"
     ]
+    projectHome: "/Users/isaac/Code"
+    telemetryConsent: "limited"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
+  editor:
+    fontFamily: "Inconsolata"
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+  emmet: {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "language-babel": {}
+  "linter-eslint": {}
+  "markdown-preview": {}
+  nuclide:
+    "nuclide-home":
+      showHome: false
+    remoteProjectsConfig: []
+  "nuclide-home":
+    showHome: true
+  react:
+    enabledForAllJavascriptFiles: true
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "unity-ui":
+    colorStatusIndicatorsInTreeView: true
+    showIcons: true
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
