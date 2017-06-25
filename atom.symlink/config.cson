@@ -6,6 +6,7 @@
       "metrics"
       "language-babel"
     ]
+    followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
@@ -49,6 +50,7 @@
       "text.plain"
       "source.gfm"
       "text.git-commit"
+      "text.html.basic"
     ]
   "unity-ui":
     colorStatusIndicatorsInTreeView: true
