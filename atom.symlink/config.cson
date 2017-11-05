@@ -34,6 +34,8 @@
     promptWhenFileHasChangedOnDisk: false
   "language-babel": {}
   "linter-eslint": {}
+  "linter-ui-default":
+    panelHeight: 81
   "markdown-preview": {}
   nuclide:
     "nuclide-home":

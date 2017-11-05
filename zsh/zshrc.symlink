@@ -9,6 +9,9 @@ export RBENV_ROOT=/usr/local/var/rbenv
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# npm MJML told me to add this
+export PATH="$PATH:./node_modules/.bin"
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 
