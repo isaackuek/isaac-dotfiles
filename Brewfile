@@ -16,7 +16,6 @@ brew 'jpeg'
 brew 'lame'
 brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
-brew 'openssl'
 brew 'node'
 brew 'nvm'
 brew 'nginx'
