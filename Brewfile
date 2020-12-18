@@ -1,32 +1,40 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/core'
 
-brew 'ack'
-brew 'coreutils'
 brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
 brew 'node'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'youtube-dl'
+brew 'nmap'
 
-cask 'audacity'
+# Browsers
+cask 'google-chrome'
+cask 'tor-browser'
+
+# Code Editors
 cask 'atom'
-cask 'ccleaner'
-cask 'garmin-express'
-cask 'handbrake'
-cask 'mplayerx'
-cask 'sketch'
-cask 'slack'
-cask 'transmission'
-cask 'mplayerx'
-cask 'spotify'
-cask 'google-backup-and-sync'
-cask 'macs-fan-control'
+cask 'iterm2'
+
+# Utilities
 cask 'adobe-creative-cloud'
-cask 'soundflowerbed'
+cask 'google-backup-and-sync'
+cask 'garmin-express'
+cask 'ccleaner'
+cask 'macs-fan-control'
+cask 'audacity'
+cask 'handbrake'
+cask 'transmission'
+cask 'wireshark'
+
+# Communications
+cask 'discord'
+cask 'zoom'
+
+# Media
+cask 'vlc'
+cask 'spotify'
+cask 'sketch'
+
+# Misc
+cask 'steam'

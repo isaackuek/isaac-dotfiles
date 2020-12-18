@@ -58,7 +58,7 @@
     ]
   editor:
     fontFamily: "Inconsolata"
-    fontSize: 18
+    fontSize: 19
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
