@@ -17,12 +17,10 @@ cask 'atom'
 cask 'iterm2'
 
 # Utilities
-cask 'adobe-creative-cloud'
+cask 'adobe-acrobat-reader'
 cask 'google-backup-and-sync'
-cask 'garmin-express'
 cask 'ccleaner'
 cask 'macs-fan-control'
-cask 'audacity'
 cask 'handbrake'
 cask 'transmission'
 cask 'wireshark'
