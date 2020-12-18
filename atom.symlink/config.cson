@@ -4,6 +4,8 @@
       beautify_on_save: true
     css:
       beautify_on_save: true
+    general:
+      _analyticsUserId: "cf437c5e-393e-4757-b81e-ca715975cc67"
     html:
       beautify_on_save: true
     js:
@@ -39,6 +41,8 @@
       "exception-reporting"
       "metrics"
       "language-babel"
+      "jshint"
+      "whitespace"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -54,7 +58,7 @@
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "atom-material-syntax-dark"
     ]
   editor:
     fontFamily: "Inconsolata"
@@ -90,10 +94,14 @@
     ]
   welcome:
     showOnStartup: false
+".coffee.jsx.source":
+  editor:
+    softWrap: true
 ".js.jsx.react.source":
   editor:
     autoIndent: true
 ".js.jsx.source":
   editor:
-    autoIndent: false
+    autoIndent: true
     autoIndentOnPaste: false
+    softWrap: true
